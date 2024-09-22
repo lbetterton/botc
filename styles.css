@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Chuck;
+    src: url('media/LHF_Unlovable.otf');
+}
+
+/* Basic reset and full viewport height */
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Chuck, sans-serif;
+    font-size: 180px;
+    color: #fff;
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Flexbox centering */
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+} */
+
+/* Fullscreen video styling */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container */
+    z-index: -1; /* Place behind other content */
+}
+
+
+.container {
+    text-align: center;
+}
+
+#day {
+    padding: 10px 20px;
+}
+
+#timer {
+    padding: 10px 20px;
+}
